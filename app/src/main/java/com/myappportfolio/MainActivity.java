@@ -39,7 +39,14 @@ public class MainActivity extends ActionBarActivity {
   }
 
   public void sendMessage(View view) {
-    Toast.makeText(getApplicationContext(),"This button will launch my spotify streamer",
-        Toast.LENGTH_SHORT).show();
+    String str = "Unknown view was clicked";
+    switch (view.getId()) {
+      case R.id.button:
+        str = "This button will launch my spotify streamer";
+        break;
+      default:
+        break;
+    }
+    Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
   }
 }
