@@ -12,5 +12,6 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:background">@color/material_orange_500</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:onClick">sendMessage</item>
     </style>
 </resources>
