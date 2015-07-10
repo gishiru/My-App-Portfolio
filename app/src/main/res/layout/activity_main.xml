@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/my_title"
         android:id="@+id/textView"
         android:textSize="30sp"
         android:textColor="@color/material_blue_grey_500"
@@ -19,81 +19,41 @@
         android:layout_marginTop="15dp"/>
 
     <Button
-        android:layout_width="275dp"
-        android:layout_height="75dp"
-        android:text="SPOTIFY STREAMER"
+        android:text="@string/media_streamer"
         android:id="@+id/button"
+        style="@style/AppTheme.Button"
         android:layout_marginTop="60dp"
-        style="@style/AppTheme.Button"
-        android:textSize="20sp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:background="@color/material_orange_500"
-        android:textStyle="bold"/>
+        android:layout_below="@+id/textView"/>
 
     <Button
-        android:layout_width="275dp"
-        android:layout_height="75dp"
-        android:text="SCORES APP"
+        android:text="@string/super_duo1"
         android:id="@+id/button2"
-        android:layout_marginTop="8dp"
         style="@style/AppTheme.Button"
-        android:textSize="20sp"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:background="@color/material_orange_500"
-        android:textStyle="bold"/>
+        android:layout_below="@+id/button"/>
 
     <Button
-        android:layout_width="275dp"
-        android:layout_height="75dp"
-        android:text="LIBRARY APP"
+        android:text="@string/super_duo2"
         android:id="@+id/button3"
-        android:layout_marginTop="8dp"
         style="@style/AppTheme.Button"
-        android:textSize="20sp"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:background="@color/material_orange_500"
-        android:textStyle="bold"/>
+        android:layout_below="@+id/button2"/>
 
     <Button
-        android:layout_width="275dp"
-        android:layout_height="75dp"
-        android:text="BUILD IT BIGGER"
+        android:text="@string/ant_terminator"
         android:id="@+id/button4"
-        android:layout_marginTop="8dp"
         style="@style/AppTheme.Button"
-        android:textSize="20sp"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:background="@color/material_orange_500"
-        android:textStyle="bold"/>
+        android:layout_below="@+id/button3"/>
 
     <Button
-        android:layout_width="275dp"
-        android:layout_height="75dp"
-        android:text="XYZ READER"
+        android:text="@string/materialize"
         android:id="@+id/button5"
-        android:layout_marginTop="8dp"
         style="@style/AppTheme.Button"
-        android:textSize="20sp"
-        android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true"
-        android:background="@color/material_orange_500"
-        android:textStyle="bold"/>
+        android:layout_below="@+id/button4"/>
 
     <Button
-        android:layout_width="275dp"
-        android:layout_height="75dp"
-        android:text="CAPSTONE: MY OWN APP"
+        android:text="@string/capstone"
         android:id="@+id/button6"
-        android:layout_marginTop="8dp"
         style="@style/AppTheme.Button"
-        android:textSize="20sp"
         android:layout_below="@+id/button5"
-        android:layout_centerHorizontal="true"
         android:background="@color/material_pink_600"
-        android:textStyle="bold"
         android:textColor="@android:color/white"/>
 </RelativeLayout>
